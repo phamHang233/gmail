@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val txtMsg: TextView = findViewById(R.id.txtMsg)
         val users: Array<String> = arrayOf("HUST", "CTSV", "Le Ba Vui", "Tuto.com", "support")
         val text_des :Array<String> = arrayOf("Data-0", "Data-1", "Data-2", "Data-3",
             "Data-4")
